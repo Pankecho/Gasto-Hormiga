@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBE9153D1FA0D6D700FABF2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE9153C1FA0D6D700FABF2F /* AppDelegate.swift */; };
+		CBE9153F1FA0D6D700FABF2F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE9153E1FA0D6D700FABF2F /* FirstViewController.swift */; };
+		CBE915411FA0D6D700FABF2F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE915401FA0D6D700FABF2F /* SecondViewController.swift */; };
+		CBE915441FA0D6D700FABF2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE915421FA0D6D700FABF2F /* Main.storyboard */; };
+		CBE915461FA0D6D700FABF2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE915451FA0D6D700FABF2F /* Assets.xcassets */; };
+		CBE915491FA0D6D700FABF2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE915471FA0D6D700FABF2F /* LaunchScreen.storyboard */; };
+		CBE915541FA0D6D700FABF2F /* Gasto_HormigaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE915531FA0D6D700FABF2F /* Gasto_HormigaTests.swift */; };
+		CBE9155F1FA0D6D700FABF2F /* Gasto_HormigaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE9155E1FA0D6D700FABF2F /* Gasto_HormigaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBE915501FA0D6D700FABF2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBE915311FA0D6D700FABF2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBE915381FA0D6D700FABF2F;
+			remoteInfo = "Gasto Hormiga";
+		};
+		CBE9155B1FA0D6D700FABF2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBE915311FA0D6D700FABF2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBE915381FA0D6D700FABF2F;
+			remoteInfo = "Gasto Hormiga";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBE915391FA0D6D700FABF2F /* Gasto Hormiga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gasto Hormiga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE9153C1FA0D6D700FABF2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBE9153E1FA0D6D700FABF2F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CBE915401FA0D6D700FABF2F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CBE915431FA0D6D700FABF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBE915451FA0D6D700FABF2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBE915481FA0D6D700FABF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBE9154A1FA0D6D700FABF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE9154F1FA0D6D700FABF2F /* Gasto HormigaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gasto HormigaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE915531FA0D6D700FABF2F /* Gasto_HormigaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gasto_HormigaTests.swift; sourceTree = "<group>"; };
+		CBE915551FA0D6D700FABF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE9155A1FA0D6D700FABF2F /* Gasto HormigaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gasto HormigaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE9155E1FA0D6D700FABF2F /* Gasto_HormigaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gasto_HormigaUITests.swift; sourceTree = "<group>"; };
+		CBE915601FA0D6D700FABF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBE915361FA0D6D700FABF2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE9154C1FA0D6D700FABF2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE915571FA0D6D700FABF2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBE915301FA0D6D700FABF2F = {
+			isa = PBXGroup;
+			children = (
+				CBE9153B1FA0D6D700FABF2F /* Gasto Hormiga */,
+				CBE915521FA0D6D700FABF2F /* Gasto HormigaTests */,
+				CBE9155D1FA0D6D700FABF2F /* Gasto HormigaUITests */,
+				CBE9153A1FA0D6D700FABF2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBE9153A1FA0D6D700FABF2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBE915391FA0D6D700FABF2F /* Gasto Hormiga.app */,
+				CBE9154F1FA0D6D700FABF2F /* Gasto HormigaTests.xctest */,
+				CBE9155A1FA0D6D700FABF2F /* Gasto HormigaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBE9153B1FA0D6D700FABF2F /* Gasto Hormiga */ = {
+			isa = PBXGroup;
+			children = (
+				CBE9153C1FA0D6D700FABF2F /* AppDelegate.swift */,
+				CBE9153E1FA0D6D700FABF2F /* FirstViewController.swift */,
+				CBE915401FA0D6D700FABF2F /* SecondViewController.swift */,
+				CBE915421FA0D6D700FABF2F /* Main.storyboard */,
+				CBE915451FA0D6D700FABF2F /* Assets.xcassets */,
+				CBE915471FA0D6D700FABF2F /* LaunchScreen.storyboard */,
+				CBE9154A1FA0D6D700FABF2F /* Info.plist */,
+			);
+			path = "Gasto Hormiga";
+			sourceTree = "<group>";
+		};
+		CBE915521FA0D6D700FABF2F /* Gasto HormigaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBE915531FA0D6D700FABF2F /* Gasto_HormigaTests.swift */,
+				CBE915551FA0D6D700FABF2F /* Info.plist */,
+			);
+			path = "Gasto HormigaTests";
+			sourceTree = "<group>";
+		};
+		CBE9155D1FA0D6D700FABF2F /* Gasto HormigaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBE9155E1FA0D6D700FABF2F /* Gasto_HormigaUITests.swift */,
+				CBE915601FA0D6D700FABF2F /* Info.plist */,
+			);
+			path = "Gasto HormigaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBE915381FA0D6D700FABF2F /* Gasto Hormiga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE915631FA0D6D700FABF2F /* Build configuration list for PBXNativeTarget "Gasto Hormiga" */;
+			buildPhases = (
+				CBE915351FA0D6D700FABF2F /* Sources */,
+				CBE915361FA0D6D700FABF2F /* Frameworks */,
+				CBE915371FA0D6D700FABF2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gasto Hormiga";
+			productName = "Gasto Hormiga";
+			productReference = CBE915391FA0D6D700FABF2F /* Gasto Hormiga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBE9154E1FA0D6D700FABF2F /* Gasto HormigaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE915661FA0D6D700FABF2F /* Build configuration list for PBXNativeTarget "Gasto HormigaTests" */;
+			buildPhases = (
+				CBE9154B1FA0D6D700FABF2F /* Sources */,
+				CBE9154C1FA0D6D700FABF2F /* Frameworks */,
+				CBE9154D1FA0D6D700FABF2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBE915511FA0D6D700FABF2F /* PBXTargetDependency */,
+			);
+			name = "Gasto HormigaTests";
+			productName = "Gasto HormigaTests";
+			productReference = CBE9154F1FA0D6D700FABF2F /* Gasto HormigaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBE915591FA0D6D700FABF2F /* Gasto HormigaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE915691FA0D6D700FABF2F /* Build configuration list for PBXNativeTarget "Gasto HormigaUITests" */;
+			buildPhases = (
+				CBE915561FA0D6D700FABF2F /* Sources */,
+				CBE915571FA0D6D700FABF2F /* Frameworks */,
+				CBE915581FA0D6D700FABF2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBE9155C1FA0D6D700FABF2F /* PBXTargetDependency */,
+			);
+			name = "Gasto HormigaUITests";
+			productName = "Gasto HormigaUITests";
+			productReference = CBE9155A1FA0D6D700FABF2F /* Gasto HormigaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBE915311FA0D6D700FABF2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Juan Pablo Martinez Ruiz";
+				TargetAttributes = {
+					CBE915381FA0D6D700FABF2F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					CBE9154E1FA0D6D700FABF2F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBE915381FA0D6D700FABF2F;
+					};
+					CBE915591FA0D6D700FABF2F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBE915381FA0D6D700FABF2F;
+					};
+				};
+			};
+			buildConfigurationList = CBE915341FA0D6D700FABF2F /* Build configuration list for PBXProject "Gasto Hormiga" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBE915301FA0D6D700FABF2F;
+			productRefGroup = CBE9153A1FA0D6D700FABF2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBE915381FA0D6D700FABF2F /* Gasto Hormiga */,
+				CBE9154E1FA0D6D700FABF2F /* Gasto HormigaTests */,
+				CBE915591FA0D6D700FABF2F /* Gasto HormigaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBE915371FA0D6D700FABF2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE915491FA0D6D700FABF2F /* LaunchScreen.storyboard in Resources */,
+				CBE915461FA0D6D700FABF2F /* Assets.xcassets in Resources */,
+				CBE915441FA0D6D700FABF2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE9154D1FA0D6D700FABF2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE915581FA0D6D700FABF2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBE915351FA0D6D700FABF2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE915411FA0D6D700FABF2F /* SecondViewController.swift in Sources */,
+				CBE9153D1FA0D6D700FABF2F /* AppDelegate.swift in Sources */,
+				CBE9153F1FA0D6D700FABF2F /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE9154B1FA0D6D700FABF2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE915541FA0D6D700FABF2F /* Gasto_HormigaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE915561FA0D6D700FABF2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE9155F1FA0D6D700FABF2F /* Gasto_HormigaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBE915511FA0D6D700FABF2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBE915381FA0D6D700FABF2F /* Gasto Hormiga */;
+			targetProxy = CBE915501FA0D6D700FABF2F /* PBXContainerItemProxy */;
+		};
+		CBE9155C1FA0D6D700FABF2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBE915381FA0D6D700FABF2F /* Gasto Hormiga */;
+			targetProxy = CBE9155B1FA0D6D700FABF2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBE915421FA0D6D700FABF2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBE915431FA0D6D700FABF2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBE915471FA0D6D700FABF2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBE915481FA0D6D700FABF2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBE915611FA0D6D700FABF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBE915621FA0D6D700FABF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBE915641FA0D6D700FABF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C387FJ959;
+				INFOPLIST_FILE = "Gasto Hormiga/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pankitech.Gasto-Hormiga";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBE915651FA0D6D700FABF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C387FJ959;
+				INFOPLIST_FILE = "Gasto Hormiga/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pankitech.Gasto-Hormiga";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBE915671FA0D6D700FABF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C387FJ959;
+				INFOPLIST_FILE = "Gasto HormigaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pankitech.Gasto-HormigaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gasto Hormiga.app/Gasto Hormiga";
+			};
+			name = Debug;
+		};
+		CBE915681FA0D6D700FABF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C387FJ959;
+				INFOPLIST_FILE = "Gasto HormigaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pankitech.Gasto-HormigaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gasto Hormiga.app/Gasto Hormiga";
+			};
+			name = Release;
+		};
+		CBE9156A1FA0D6D700FABF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C387FJ959;
+				INFOPLIST_FILE = "Gasto HormigaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pankitech.Gasto-HormigaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gasto Hormiga";
+			};
+			name = Debug;
+		};
+		CBE9156B1FA0D6D700FABF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C387FJ959;
+				INFOPLIST_FILE = "Gasto HormigaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pankitech.Gasto-HormigaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gasto Hormiga";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBE915341FA0D6D700FABF2F /* Build configuration list for PBXProject "Gasto Hormiga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE915611FA0D6D700FABF2F /* Debug */,
+				CBE915621FA0D6D700FABF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE915631FA0D6D700FABF2F /* Build configuration list for PBXNativeTarget "Gasto Hormiga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE915641FA0D6D700FABF2F /* Debug */,
+				CBE915651FA0D6D700FABF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE915661FA0D6D700FABF2F /* Build configuration list for PBXNativeTarget "Gasto HormigaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE915671FA0D6D700FABF2F /* Debug */,
+				CBE915681FA0D6D700FABF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE915691FA0D6D700FABF2F /* Build configuration list for PBXNativeTarget "Gasto HormigaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE9156A1FA0D6D700FABF2F /* Debug */,
+				CBE9156B1FA0D6D700FABF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBE915311FA0D6D700FABF2F /* Project object */;
+}
