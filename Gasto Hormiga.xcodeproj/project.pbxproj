@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A8A1B2D9865CE1335AE13C9 /* Pods_Gasto_Hormiga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035B87E774A418DEC9F74D87 /* Pods_Gasto_Hormiga.framework */; };
+		8CB6E3C7CD1D23E3AABA7C1F /* Pods_Gasto_HormigaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD05B78A00D1711D86DEBE4 /* Pods_Gasto_HormigaUITests.framework */; };
+		9EAEACD26C13EEB338301474 /* Pods_Gasto_HormigaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DA3902D244EBCCD9ECF770 /* Pods_Gasto_HormigaTests.framework */; };
+		CB2AAF001FA24E29000E69E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB2AAEFF1FA24E29000E69E6 /* GoogleService-Info.plist */; };
+		CB2AAF021FA24E8F000E69E6 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2AAF011FA24E8F000E69E6 /* Producto.swift */; };
+		CB5F3F0C1FBC12B9007D4C25 /* MapTiendaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F3F0B1FBC12B9007D4C25 /* MapTiendaVC.swift */; };
+		CB68369C1FBC9C10001A601A /* Establecimiento.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB68369B1FBC9C10001A601A /* Establecimiento.swift */; };
+		CB68369E1FBC9C47001A601A /* Sucursal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB68369D1FBC9C47001A601A /* Sucursal.swift */; };
+		CB708B601FAEE686004329D4 /* ListaComprasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB708B5F1FAEE686004329D4 /* ListaComprasCell.swift */; };
+		CB708B621FAEE808004329D4 /* ListaCompraTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB708B611FAEE808004329D4 /* ListaCompraTVC.swift */; };
+		CB708B661FAEF29C004329D4 /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB708B651FAEF29C004329D4 /* Categoria.swift */; };
+		CB708B681FAEF2B0004329D4 /* Lista.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB708B671FAEF2B0004329D4 /* Lista.swift */; };
+		CBD832931FAFBB5A00321A07 /* ListaActualVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD832921FAFBB5A00321A07 /* ListaActualVC.swift */; };
+		CBD832951FAFC6EE00321A07 /* ProductoListaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD832941FAFC6EE00321A07 /* ProductoListaCell.swift */; };
+		CBD832981FAFC81600321A07 /* PickProductoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD832971FAFC81600321A07 /* PickProductoTVC.swift */; };
+		CBD8329A1FAFCD4700321A07 /* PickProductoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD832991FAFCD4700321A07 /* PickProductoCell.swift */; };
+		CBD8329C1FAFF05500321A07 /* ConsultaCategoriaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD8329B1FAFF05500321A07 /* ConsultaCategoriaCell.swift */; };
+		CBD8329E1FAFF0CB00321A07 /* ConsultaCategoriaTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD8329D1FAFF0CB00321A07 /* ConsultaCategoriaTVC.swift */; };
 		CBE9153D1FA0D6D700FABF2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE9153C1FA0D6D700FABF2F /* AppDelegate.swift */; };
-		CBE9153F1FA0D6D700FABF2F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE9153E1FA0D6D700FABF2F /* FirstViewController.swift */; };
-		CBE915411FA0D6D700FABF2F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE915401FA0D6D700FABF2F /* SecondViewController.swift */; };
 		CBE915441FA0D6D700FABF2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE915421FA0D6D700FABF2F /* Main.storyboard */; };
 		CBE915461FA0D6D700FABF2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE915451FA0D6D700FABF2F /* Assets.xcassets */; };
 		CBE915491FA0D6D700FABF2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE915471FA0D6D700FABF2F /* LaunchScreen.storyboard */; };
 		CBE915541FA0D6D700FABF2F /* Gasto_HormigaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE915531FA0D6D700FABF2F /* Gasto_HormigaTests.swift */; };
 		CBE9155F1FA0D6D700FABF2F /* Gasto_HormigaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE9155E1FA0D6D700FABF2F /* Gasto_HormigaUITests.swift */; };
+		CBF8127A1FC353B300736327 /* ConsultaProductoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF812791FC353B300736327 /* ConsultaProductoCell.swift */; };
+		CBF8127C1FC3541C00736327 /* ConsultaProductosTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8127B1FC3541C00736327 /* ConsultaProductosTVC.swift */; };
+		CBF8127E1FC3615100736327 /* ConsultaProductoSeleccionadoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8127D1FC3615100736327 /* ConsultaProductoSeleccionadoTVC.swift */; };
+		CBF812811FC367FB00736327 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF812801FC367FB00736327 /* Utilities.swift */; };
+		CBF812831FC3735600736327 /* EstablecimientoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF812821FC3735600736327 /* EstablecimientoTVC.swift */; };
+		CBF812851FC3768800736327 /* EstablecimientoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF812841FC3768800736327 /* EstablecimientoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +57,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		035B87E774A418DEC9F74D87 /* Pods_Gasto_Hormiga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gasto_Hormiga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB05D60D93940C869101755 /* Pods-Gasto HormigaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gasto HormigaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gasto HormigaUITests/Pods-Gasto HormigaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1834F95A134586CF1F8C852D /* Pods-Gasto HormigaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gasto HormigaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gasto HormigaTests/Pods-Gasto HormigaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C73CB39BD6DBA0A26A228BE /* Pods-Gasto HormigaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gasto HormigaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gasto HormigaTests/Pods-Gasto HormigaTests.release.xcconfig"; sourceTree = "<group>"; };
+		5AD05B78A00D1711D86DEBE4 /* Pods_Gasto_HormigaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gasto_HormigaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3E2BD4E35EAF684A3E0553 /* Pods-Gasto Hormiga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gasto Hormiga.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gasto Hormiga/Pods-Gasto Hormiga.debug.xcconfig"; sourceTree = "<group>"; };
+		70DA3902D244EBCCD9ECF770 /* Pods_Gasto_HormigaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gasto_HormigaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		733FDB5F70C496D72AB7AD97 /* Pods-Gasto Hormiga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gasto Hormiga.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gasto Hormiga/Pods-Gasto Hormiga.release.xcconfig"; sourceTree = "<group>"; };
+		CB2AAEFF1FA24E29000E69E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB2AAF011FA24E8F000E69E6 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		CB5F3F0B1FBC12B9007D4C25 /* MapTiendaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTiendaVC.swift; sourceTree = "<group>"; };
+		CB68369B1FBC9C10001A601A /* Establecimiento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Establecimiento.swift; sourceTree = "<group>"; };
+		CB68369D1FBC9C47001A601A /* Sucursal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sucursal.swift; sourceTree = "<group>"; };
+		CB708B5F1FAEE686004329D4 /* ListaComprasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaComprasCell.swift; sourceTree = "<group>"; };
+		CB708B611FAEE808004329D4 /* ListaCompraTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCompraTVC.swift; sourceTree = "<group>"; };
+		CB708B651FAEF29C004329D4 /* Categoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria.swift; sourceTree = "<group>"; };
+		CB708B671FAEF2B0004329D4 /* Lista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lista.swift; sourceTree = "<group>"; };
+		CBD832921FAFBB5A00321A07 /* ListaActualVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaActualVC.swift; sourceTree = "<group>"; };
+		CBD832941FAFC6EE00321A07 /* ProductoListaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoListaCell.swift; sourceTree = "<group>"; };
+		CBD832971FAFC81600321A07 /* PickProductoTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickProductoTVC.swift; sourceTree = "<group>"; };
+		CBD832991FAFCD4700321A07 /* PickProductoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickProductoCell.swift; sourceTree = "<group>"; };
+		CBD8329B1FAFF05500321A07 /* ConsultaCategoriaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaCategoriaCell.swift; sourceTree = "<group>"; };
+		CBD8329D1FAFF0CB00321A07 /* ConsultaCategoriaTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaCategoriaTVC.swift; sourceTree = "<group>"; };
 		CBE915391FA0D6D700FABF2F /* Gasto Hormiga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gasto Hormiga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE9153C1FA0D6D700FABF2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBE9153E1FA0D6D700FABF2F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		CBE915401FA0D6D700FABF2F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CBE915431FA0D6D700FABF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBE915451FA0D6D700FABF2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBE915481FA0D6D700FABF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +92,13 @@
 		CBE9155A1FA0D6D700FABF2F /* Gasto HormigaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gasto HormigaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE9155E1FA0D6D700FABF2F /* Gasto_HormigaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gasto_HormigaUITests.swift; sourceTree = "<group>"; };
 		CBE915601FA0D6D700FABF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF812791FC353B300736327 /* ConsultaProductoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaProductoCell.swift; sourceTree = "<group>"; };
+		CBF8127B1FC3541C00736327 /* ConsultaProductosTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaProductosTVC.swift; sourceTree = "<group>"; };
+		CBF8127D1FC3615100736327 /* ConsultaProductoSeleccionadoTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaProductoSeleccionadoTVC.swift; sourceTree = "<group>"; };
+		CBF812801FC367FB00736327 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		CBF812821FC3735600736327 /* EstablecimientoTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstablecimientoTVC.swift; sourceTree = "<group>"; };
+		CBF812841FC3768800736327 /* EstablecimientoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstablecimientoCell.swift; sourceTree = "<group>"; };
+		D52F921A4A0F7773A02A1D2C /* Pods-Gasto HormigaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gasto HormigaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gasto HormigaUITests/Pods-Gasto HormigaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A8A1B2D9865CE1335AE13C9 /* Pods_Gasto_Hormiga.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EAEACD26C13EEB338301474 /* Pods_Gasto_HormigaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +122,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB6E3C7CD1D23E3AABA7C1F /* Pods_Gasto_HormigaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EAED1E0C5927266723E5379 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				035B87E774A418DEC9F74D87 /* Pods_Gasto_Hormiga.framework */,
+				70DA3902D244EBCCD9ECF770 /* Pods_Gasto_HormigaTests.framework */,
+				5AD05B78A00D1711D86DEBE4 /* Pods_Gasto_HormigaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C5DD4E63CA26C1143645B10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E3E2BD4E35EAF684A3E0553 /* Pods-Gasto Hormiga.debug.xcconfig */,
+				733FDB5F70C496D72AB7AD97 /* Pods-Gasto Hormiga.release.xcconfig */,
+				1834F95A134586CF1F8C852D /* Pods-Gasto HormigaTests.debug.xcconfig */,
+				2C73CB39BD6DBA0A26A228BE /* Pods-Gasto HormigaTests.release.xcconfig */,
+				D52F921A4A0F7773A02A1D2C /* Pods-Gasto HormigaUITests.debug.xcconfig */,
+				0DB05D60D93940C869101755 /* Pods-Gasto HormigaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB2AAEF91FA24C40000E69E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB2AAF011FA24E8F000E69E6 /* Producto.swift */,
+				CB68369D1FBC9C47001A601A /* Sucursal.swift */,
+				CB708B651FAEF29C004329D4 /* Categoria.swift */,
+				CB708B671FAEF2B0004329D4 /* Lista.swift */,
+				CB68369B1FBC9C10001A601A /* Establecimiento.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB708B5E1FAEE648004329D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB708B5F1FAEE686004329D4 /* ListaComprasCell.swift */,
+				CBD832941FAFC6EE00321A07 /* ProductoListaCell.swift */,
+				CBD832991FAFCD4700321A07 /* PickProductoCell.swift */,
+				CBD8329B1FAFF05500321A07 /* ConsultaCategoriaCell.swift */,
+				CBF812791FC353B300736327 /* ConsultaProductoCell.swift */,
+				CBF812841FC3768800736327 /* EstablecimientoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CBE915301FA0D6D700FABF2F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +184,8 @@
 				CBE915521FA0D6D700FABF2F /* Gasto HormigaTests */,
 				CBE9155D1FA0D6D700FABF2F /* Gasto HormigaUITests */,
 				CBE9153A1FA0D6D700FABF2F /* Products */,
+				2C5DD4E63CA26C1143645B10 /* Pods */,
+				0EAED1E0C5927266723E5379 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +202,16 @@
 		CBE9153B1FA0D6D700FABF2F /* Gasto Hormiga */ = {
 			isa = PBXGroup;
 			children = (
+				CBF8127F1FC367EB00736327 /* Utilities */,
+				CB708B5E1FAEE648004329D4 /* View */,
+				CB2AAEF91FA24C40000E69E6 /* Model */,
+				CBE9156C1FA0DF5D00FABF2F /* Controller */,
 				CBE9153C1FA0D6D700FABF2F /* AppDelegate.swift */,
-				CBE9153E1FA0D6D700FABF2F /* FirstViewController.swift */,
-				CBE915401FA0D6D700FABF2F /* SecondViewController.swift */,
 				CBE915421FA0D6D700FABF2F /* Main.storyboard */,
 				CBE915451FA0D6D700FABF2F /* Assets.xcassets */,
 				CBE915471FA0D6D700FABF2F /* LaunchScreen.storyboard */,
 				CBE9154A1FA0D6D700FABF2F /* Info.plist */,
+				CB2AAEFF1FA24E29000E69E6 /* GoogleService-Info.plist */,
 			);
 			path = "Gasto Hormiga";
 			sourceTree = "<group>";
@@ -128,6 +234,29 @@
 			path = "Gasto HormigaUITests";
 			sourceTree = "<group>";
 		};
+		CBE9156C1FA0DF5D00FABF2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB708B611FAEE808004329D4 /* ListaCompraTVC.swift */,
+				CBD832921FAFBB5A00321A07 /* ListaActualVC.swift */,
+				CBD832971FAFC81600321A07 /* PickProductoTVC.swift */,
+				CBD8329D1FAFF0CB00321A07 /* ConsultaCategoriaTVC.swift */,
+				CB5F3F0B1FBC12B9007D4C25 /* MapTiendaVC.swift */,
+				CBF8127B1FC3541C00736327 /* ConsultaProductosTVC.swift */,
+				CBF8127D1FC3615100736327 /* ConsultaProductoSeleccionadoTVC.swift */,
+				CBF812821FC3735600736327 /* EstablecimientoTVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CBF8127F1FC367EB00736327 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CBF812801FC367FB00736327 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBE915631FA0D6D700FABF2F /* Build configuration list for PBXNativeTarget "Gasto Hormiga" */;
 			buildPhases = (
+				DFFA5804FBB0C8EDC06E7019 /* [CP] Check Pods Manifest.lock */,
 				CBE915351FA0D6D700FABF2F /* Sources */,
 				CBE915361FA0D6D700FABF2F /* Frameworks */,
 				CBE915371FA0D6D700FABF2F /* Resources */,
+				9755DE461B51A6CE65DE9928 /* [CP] Embed Pods Frameworks */,
+				F96967DD7B365ECB5B4D84A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +284,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBE915661FA0D6D700FABF2F /* Build configuration list for PBXNativeTarget "Gasto HormigaTests" */;
 			buildPhases = (
+				2F680AB728503805E263F02E /* [CP] Check Pods Manifest.lock */,
 				CBE9154B1FA0D6D700FABF2F /* Sources */,
 				CBE9154C1FA0D6D700FABF2F /* Frameworks */,
 				CBE9154D1FA0D6D700FABF2F /* Resources */,
+				874123EE7CAE2A46B21A043D /* [CP] Embed Pods Frameworks */,
+				8672706A46872869E03D89CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBE915691FA0D6D700FABF2F /* Build configuration list for PBXNativeTarget "Gasto HormigaUITests" */;
 			buildPhases = (
+				662B21E5A1DA682A7E41E58D /* [CP] Check Pods Manifest.lock */,
 				CBE915561FA0D6D700FABF2F /* Sources */,
 				CBE915571FA0D6D700FABF2F /* Frameworks */,
 				CBE915581FA0D6D700FABF2F /* Resources */,
+				9E2C8DB9398C16C2084906AC /* [CP] Embed Pods Frameworks */,
+				0D7C6A8C3FDB96D17667237B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBE915491FA0D6D700FABF2F /* LaunchScreen.storyboard in Resources */,
+				CB2AAF001FA24E29000E69E6 /* GoogleService-Info.plist in Resources */,
 				CBE915461FA0D6D700FABF2F /* Assets.xcassets in Resources */,
 				CBE915441FA0D6D700FABF2F /* Main.storyboard in Resources */,
 			);
@@ -257,14 +396,184 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D7C6A8C3FDB96D17667237B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gasto HormigaUITests/Pods-Gasto HormigaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F680AB728503805E263F02E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gasto HormigaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		662B21E5A1DA682A7E41E58D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gasto HormigaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8672706A46872869E03D89CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gasto HormigaTests/Pods-Gasto HormigaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		874123EE7CAE2A46B21A043D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gasto HormigaTests/Pods-Gasto HormigaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9755DE461B51A6CE65DE9928 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Gasto Hormiga/Pods-Gasto Hormiga-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gasto Hormiga/Pods-Gasto Hormiga-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2C8DB9398C16C2084906AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gasto HormigaUITests/Pods-Gasto HormigaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFFA5804FBB0C8EDC06E7019 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gasto Hormiga-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96967DD7B365ECB5B4D84A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gasto Hormiga/Pods-Gasto Hormiga-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CBE915351FA0D6D700FABF2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBE915411FA0D6D700FABF2F /* SecondViewController.swift in Sources */,
+				CB708B601FAEE686004329D4 /* ListaComprasCell.swift in Sources */,
+				CBD8329C1FAFF05500321A07 /* ConsultaCategoriaCell.swift in Sources */,
+				CB2AAF021FA24E8F000E69E6 /* Producto.swift in Sources */,
+				CBD832981FAFC81600321A07 /* PickProductoTVC.swift in Sources */,
 				CBE9153D1FA0D6D700FABF2F /* AppDelegate.swift in Sources */,
-				CBE9153F1FA0D6D700FABF2F /* FirstViewController.swift in Sources */,
+				CB708B621FAEE808004329D4 /* ListaCompraTVC.swift in Sources */,
+				CBD8329E1FAFF0CB00321A07 /* ConsultaCategoriaTVC.swift in Sources */,
+				CB708B661FAEF29C004329D4 /* Categoria.swift in Sources */,
+				CBF812851FC3768800736327 /* EstablecimientoCell.swift in Sources */,
+				CB708B681FAEF2B0004329D4 /* Lista.swift in Sources */,
+				CBD832931FAFBB5A00321A07 /* ListaActualVC.swift in Sources */,
+				CB68369E1FBC9C47001A601A /* Sucursal.swift in Sources */,
+				CBF8127E1FC3615100736327 /* ConsultaProductoSeleccionadoTVC.swift in Sources */,
+				CBF812831FC3735600736327 /* EstablecimientoTVC.swift in Sources */,
+				CBD8329A1FAFCD4700321A07 /* PickProductoCell.swift in Sources */,
+				CBF812811FC367FB00736327 /* Utilities.swift in Sources */,
+				CBF8127C1FC3541C00736327 /* ConsultaProductosTVC.swift in Sources */,
+				CBD832951FAFC6EE00321A07 /* ProductoListaCell.swift in Sources */,
+				CB68369C1FBC9C10001A601A /* Establecimiento.swift in Sources */,
+				CBF8127A1FC353B300736327 /* ConsultaProductoCell.swift in Sources */,
+				CB5F3F0C1FBC12B9007D4C25 /* MapTiendaVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +737,7 @@
 		};
 		CBE915641FA0D6D700FABF2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E3E2BD4E35EAF684A3E0553 /* Pods-Gasto Hormiga.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +753,7 @@
 		};
 		CBE915651FA0D6D700FABF2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 733FDB5F70C496D72AB7AD97 /* Pods-Gasto Hormiga.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +769,7 @@
 		};
 		CBE915671FA0D6D700FABF2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1834F95A134586CF1F8C852D /* Pods-Gasto HormigaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +787,7 @@
 		};
 		CBE915681FA0D6D700FABF2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C73CB39BD6DBA0A26A228BE /* Pods-Gasto HormigaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +805,7 @@
 		};
 		CBE9156A1FA0D6D700FABF2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52F921A4A0F7773A02A1D2C /* Pods-Gasto HormigaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +822,7 @@
 		};
 		CBE9156B1FA0D6D700FABF2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB05D60D93940C869101755 /* Pods-Gasto HormigaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
